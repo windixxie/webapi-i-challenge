@@ -1,5 +1,5 @@
 // implement your API here
-require('dotenv').config();
+const dotenv = require('dotenv');
 const express = require('express');
 
 const Users = require('./data/db.js');
